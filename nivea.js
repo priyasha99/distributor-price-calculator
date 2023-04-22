@@ -10,7 +10,7 @@ let calculate = () => {
   if(isNaN(p) || isNaN(r) || isNaN(t) || isNaN(price)) {
     result.innerHTML = `<div> <p>Enter details to calculate price.</p> </div>`;
   } else {
-  result.innerHTML = `<div>Price to retailer: <span>${price.toFixed(2)}</span></div>`;
+  result.innerHTML = `<div>Price to retailer: <span>${price.toFixed(2)} Rs.</span></div>`;
   }
 };
 calculateBtn.addEventListener("click", calculate);
