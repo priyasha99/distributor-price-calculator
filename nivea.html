@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nivea Price Calculator</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="nivea.css" />
+  </head>
+  <body>
+    <div class="topnav">
+    <a>NIVEA</a>
+</div>
+    <div class="container">
+      <div class="input-wrapper">
+        <div class="wrapper">
+          <label for="maximumRetailPrice">MRP(Rs):</label>
+          <input type="number" id="maximumRetailPrice" />
+        </div>
+        <div class="wrapper">
+          <label for="margin">Margin:</label>
+          <input type="number" id="margin" />
+        </div>
+        <div class="wrapper">
+          <label for="scheme">Scheme(%):</label>
+           <input type="number" id="scheme" />
+        </div>
+      </div>
+      <button id="calculate-btn">Calculate</button>
+      <div id="result"></div>
+    </div>
+    <!-- Script -->
+    <script src="nivea.js"></script>
+  </body>
+</html>
