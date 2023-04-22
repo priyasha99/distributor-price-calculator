@@ -7,7 +7,7 @@ let calculate = () => {
 
   let price = p/r * (1 - (t/100));
 
-  if(price == null || isNaN(price)) {
+  if(isNaN(p) || isNaN(r) || isNaN(t) || isNaN(price)) {
     result.innerHTML = `<div> <p>Enter details to calculate price.</p> </div>`;
   } else {
   result.innerHTML = `<div>Price to retailer: <span>${price.toFixed(2)}</span></div>`;
