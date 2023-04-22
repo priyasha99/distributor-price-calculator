@@ -1,4 +1,4 @@
-# nivea-price-calculator
-Website to calculate retailer price statement given scheme, margin and product price
+# retailor-landing-price
+Website to calculate retailer landing price given scheme, margin and product price
 
-Website availabel at https://priyasha99.github.io/nivea-price-calculator/
+Website available at https://priyasha99.github.io/retailor-landing-price/
